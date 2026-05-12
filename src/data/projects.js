@@ -1,18 +1,43 @@
+import edesaImg from "../assets/edesa.png";
+import sipinjamImg from "../assets/sipinjam.png";
+import arImg from "../assets/ar.png";
+
 const projects = [
   {
-    title: "Sistem Pencatatan Penduduk",
-    description: "Web dashboard penduduk menggunakan Laravel dan Vue.",
-    tech: ["Laravel", "Vue"],
+    title: "SiPinjam",
+    description: "Aplikasi peminjaman berbasis PHP dan Tailwind CSS.",
+    tech: ["Tailwind", "PHP"],
+    github: "https://github.com/sipinjam/sipinjam.git",
+    image: sipinjamImg,
   },
   {
-    title: "SIPinjam",
-    description: "Aplikasi peminjaman berbasis PHP dan Tailwind CSS.",
-    tech: ["PHP", "Tailwind"],
+    title: "E-Desa - Sistem Informasi Desa Digital",
+    description:
+      "Web dashboard pencatatan penduduk menggunakan Laravel dan Vue.",
+    tech: ["Vue", "Laravel"],
+    github: "https://github.com/PBL-TI2B/sistem-penduduk-api-vue.git",
+    image: edesaImg,
   },
   {
     title: "Jagakuin",
-    description: "Website modern dengan React dan Tailwind CSS.",
-    tech: ["React", "Tailwind"],
+    description: "Website tukar jasa modern dengan react dan Tailwind CSS.",
+    tech: ["React", "Laravel"],
+    github: "https://github.com/Rahmalyana/Jagakuin.git",
+  },
+  {
+    title: "Company Profile SoloPhoto",
+    description:
+      "Website company profile untuk UMKM SoloPhoto dengan Tailwind CSS dan JavaScript.",
+    tech: ["Tailwind", "JavaScript"],
+    github: "https://github.com/rohimatun/WebCompanyProfile-SoloPhoto.git",
+  },
+  {
+    title: "AR Project",
+    description:
+      "Pengembangan media interaktif berbasis AR menggunakan Unity dan Vuforia Engine.",
+    tech: ["Unity", "Vuforia", "C#"],
+    github: "https://github.com/helsach/AR-Project.git",
+    image: arImg,
   },
 ];
 

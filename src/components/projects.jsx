@@ -9,15 +9,23 @@ function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:-translate-y-2 transition"
+            className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:-translate-y-2 transition duration-300"
           >
-            <div className="h-52 bg-gradient-to-r from-cyan-500 to-blue-500" />
+            {/* Preview */}
+            <img
+              src={project.image}
+              alt={project.title}
+              className="h-52 w-full object-cover"
+            />
 
             <div className="p-6">
+              {/* Title */}
               <h3 className="text-2xl font-semibold">{project.title}</h3>
 
+              {/* Description */}
               <p className="text-gray-400 mt-4">{project.description}</p>
 
+              {/* Tech Stack */}
               <div className="flex gap-3 mt-4 flex-wrap">
                 {project.tech.map((item, i) => (
                   <span
@@ -27,6 +35,24 @@ function Projects() {
                     {item}
                   </span>
                 ))}
+              </div>
+
+              {/* Button */}
+              <div className="flex gap-4 mt-6">
+                {project.github ? (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 rounded-xl bg-cyan-500 hover:bg-cyan-600 transition"
+                  >
+                    GitHub
+                  </a>
+                ) : (
+                  <button className="px-4 py-2 rounded-xl bg-cyan-500/30 text-white cursor-not-allowed">
+                    Coming Soon
+                  </button>
+                )}
               </div>
             </div>
           </div>
