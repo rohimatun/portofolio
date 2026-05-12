@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+    <section
+      id="\"
+      className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden"
+    >
       {/* Animated Background */}
       <motion.div
         animate={{
