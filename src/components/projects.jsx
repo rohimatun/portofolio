@@ -9,7 +9,9 @@ function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:-translate-y-2 transition duration-300"
+            className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:-translate-y-2 hover:border-cyan-400/50
+              hover:bg-cyan-500/10 hover:shadow-lg
+              hover:shadow-cyan-500/20 transition duration-300"
           >
             {/* Preview */}
             <img
