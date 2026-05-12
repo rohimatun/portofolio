@@ -1,0 +1,9 @@
+function Footer() {
+  return (
+    <footer className="border-t border-white/10 py-8 text-center text-gray-400">
+      © 2026 Rin Portfolio. All rights reserved.
+    </footer>
+  );
+}
+
+export default Footer;
