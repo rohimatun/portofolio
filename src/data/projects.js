@@ -1,5 +1,7 @@
 import edesaImg from "../assets/edesa.png";
 import sipinjamImg from "../assets/sipinjam.png";
+import jagakuinImg from "../assets/jagakuin.png";
+import solophotoImg from "../assets/solophoto.png";
 import arImg from "../assets/ar.png";
 
 const projects = [
@@ -23,6 +25,7 @@ const projects = [
     description: "Website tukar jasa modern dengan react dan Tailwind CSS.",
     tech: ["React", "Laravel"],
     github: "https://github.com/Rahmalyana/Jagakuin.git",
+    image: jagakuinImg,
   },
   {
     title: "Company Profile SoloPhoto",
@@ -30,6 +33,7 @@ const projects = [
       "Website company profile untuk UMKM SoloPhoto dengan Tailwind CSS dan JavaScript.",
     tech: ["Tailwind", "JavaScript"],
     github: "https://github.com/rohimatun/WebCompanyProfile-SoloPhoto.git",
+    image: solophotoImg,
   },
   {
     title: "AR Project",
