@@ -41,7 +41,7 @@ function Hero() {
           transition={{ duration: 0.6 }}
           className="inline-block px-4 py-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 text-cyan-300 text-sm mb-6 backdrop-blur-md"
         >
-          Front End Developer
+          Web Developer
         </motion.div>
 
         {/* Title */}
